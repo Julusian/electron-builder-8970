@@ -1168,7 +1168,6 @@ __metadata:
   resolution: "electron-builder-package-modules-missing@workspace:."
   dependencies:
     "@electron/asar": "npm:^3.3.1"
-    zx: "npm:8.4.1"
   languageName: unknown
   linkType: soft
 
@@ -3341,14 +3340,5 @@ __metadata:
   version: 0.1.0
   resolution: "yocto-queue@npm:0.1.0"
   checksum: 10c0/dceb44c28578b31641e13695d200d34ec4ab3966a5729814d5445b194933c096b7ced71494ce53a0e8820685d1d010df8b2422e5bf2cdea7e469d97ffbea306f
-  languageName: node
-  linkType: hard
-
-"zx@npm:8.4.1":
-  version: 8.4.1
-  resolution: "zx@npm:8.4.1"
-  bin:
-    zx: build/cli.js
-  checksum: 10c0/5213322d24f95748048f6695f8b0c36d1a6faa1c31ce315c165863f75f14f3c1adedff8ddbf2e9cdffe1fdab0ca2810c46e5823e066c68a00157775cc0eac57b
   languageName: node
   linkType: hard
