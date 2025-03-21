@@ -1,0 +1,7 @@
+{
+  "name": "@julusian/electron-test-one",
+  "version": "1.0.0",
+  "dependencies": {
+    "nanoid": "3"
+  }
+}

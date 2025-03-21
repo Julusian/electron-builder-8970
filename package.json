@@ -1,4 +1,14 @@
 {
   "name": "electron-builder-package-modules-missing",
-  "packageManager": "yarn@4.7.0"
+  "packageManager": "yarn@4.7.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "zx test.mjs"
+  },
+  "devDependencies": {
+    "@electron/asar": "^3.3.1",
+    "zx": "8.4.1"
+  }
 }
